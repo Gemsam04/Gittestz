@@ -1,0 +1,8 @@
+Download Jenkins
+-- Download the war file from website
+--Check java 8 version installed (java -version)
+--java -jar C:\Users\danif\Downloads\jenkins.war (type jva -jar then drop the war file in cmd)
+--password auto-generated (ae175fb0d1bf441186f37e5a3c95cf14)
+--password can also be found at  C:\Users\danif\.jenkins\secrets\initialAdminPassword
+--login to jenkins: localhost:8080
+--Jenkins URL: http://localhost:8080/
