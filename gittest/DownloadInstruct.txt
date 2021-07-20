@@ -6,3 +6,32 @@ Download Jenkins
 --password can also be found at  C:\Users\danif\.jenkins\secrets\initialAdminPassword
 --login to jenkins: localhost:8080
 --Jenkins URL: http://localhost:8080/
+
+
+
+#To use github
+- We need to download maven and have maven plugin in eclipse
+-- We need jenkins
+-- We need to download tomcat server
+-- Download jenkins git plugin and dowload gitbinaries
+---Restart tomcat server after downloading the jenkins git plugins
+-- In order to restart tomcat we need either JRE_HOME or JDK_HOME in the 
+environment variable path
+-- restart tomcat with the below command
+C:\Program Files\apache-tomcat-8.5.69-windows-x64\apache-tomcat-8.5.69\bin\catalina.bat start
+C:\Program Files\apache-tomcat-8.5.69-windows-x64\apache-tomcat-8.5.69\bin\catalina.bat stop
+
+-- Go to jenkins, check the available tab to see that jenkins git plugin got installed
+--Create a Maven project
+-- install eclipse git plugin in eclipse.
+--Create a repository in github
+-- Share and commit the maven project to github
+
+#To download jdk without logging to oracle
+
+try a GOOGLE search with
+
+intitle "index of /" jdk-8u221-windows-x64.exe
+--run the github from jenkins
+--make sure the maven testng dependency has the below instead of <scope>test</scope>
+<scope>compile</scope>
