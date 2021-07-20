@@ -7,6 +7,9 @@ Download Jenkins
 --login to jenkins: localhost:8080
 --Jenkins URL: http://localhost:8080/
 
+Note:In jenkins make sure you put the path to you maven,ant,git and jdk.
+-- Go to manage jenkins --> Global tool configuration --> (put the path or automatically download)
+
 
 
 #To use github
